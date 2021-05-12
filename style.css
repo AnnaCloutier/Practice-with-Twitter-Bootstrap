@@ -1,0 +1,26 @@
+header {
+    background-color: black;
+}
+
+.card {
+    margin: 5px;
+    padding: none;
+    flex-wrap: wrap;
+}
+
+.subtitle {
+    color: whitesmoke;
+    padding: 20px;
+    border: none;
+    margin: none;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+@media all and (min-width: 480px) {
+    container {
+        flex-direction: row;
+    }
+}
